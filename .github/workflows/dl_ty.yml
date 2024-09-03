@@ -29,5 +29,5 @@ jobs:
         branch: main
         commit: true
         commit_message: "[skip ci] Upload changes"
-        remote: git@github.com:<your-username>/<your-repo>.git  # Update this with your repo
+        remote: git@github.com:pedroachagas/yt_transcribe.git  # Update this with your repo
         ssh_key: ${{ secrets.DEPLOY_KEY }}

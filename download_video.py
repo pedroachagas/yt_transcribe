@@ -2,7 +2,6 @@ import streamlit as st
 import yt_dlp
 import subprocess
 import os
-from streamlit_lottie import st_lottie
 import requests
 import time
 
@@ -26,8 +25,8 @@ def download_audio(url: str) -> str:
             'preferredcodec': 'mp3',
             'preferredquality': '192',
         }],
-        'username': 'oauth2',
-        'password': '',
+        # 'username': 'oauth2',
+        # 'password': '',
     }
 
     # Download the audio using yt-dlp

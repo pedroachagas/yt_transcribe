@@ -1,2 +1,4 @@
 yt-dlp==2024.8.6
-openai-whisper==20231117
+openai-whisper==20231117requests==2.32.3
+requests
+streamlit-lottie

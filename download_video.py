@@ -14,6 +14,7 @@ def download_audio(url: str) -> str:
             'key': 'FFmpegExtractAudio',
             'preferredcodec': 'mp3',
             'preferredquality': '192',
+            'geo_verification_proxy': '128.106.14.227',
         }],
     }
 

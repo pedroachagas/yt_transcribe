@@ -1,2 +1,2 @@
 yt-dlp==2024.8.6
-openai-whisper
+openai-whisper==20231117

@@ -10,11 +10,11 @@ def download_audio(url: str) -> str:
     ydl_opts = {
         'format': 'bestaudio/best',
         'outtmpl': f'{audio_file}''.%(ext)s',
+        'geo_verification_proxy': '128.106.14.227',
         'postprocessors': [{
             'key': 'FFmpegExtractAudio',
             'preferredcodec': 'mp3',
             'preferredquality': '192',
-            'geo_verification_proxy': '128.106.14.227',
         }],
     }
 

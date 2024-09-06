@@ -25,7 +25,7 @@ def download_audio(url: str) -> str:
             'preferredcodec': 'mp3',
             'preferredquality': '192',
         }],
-         'impersonate': 'Chrome'
+        'source_address': '192.168.1.100',
     }
 
     # Download the audio using yt-dlp
